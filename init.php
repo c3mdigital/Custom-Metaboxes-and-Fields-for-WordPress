@@ -384,7 +384,7 @@ class cmb_Meta_Box {
 								echo 'File: <strong>', $title, '</strong>&nbsp;&nbsp;&nbsp; (<a href="', $meta, '" target="_blank" rel="external">Download</a> / <a href="#" class="cmb_remove_file_button" rel="', $field['id'], '">Remove</a>)';
 							}	
 						}
-					echo '</div></di>';
+					echo '</div></div>';
 				break;
 				default:
 					do_action('cmb_render_' . $field['type'] , $field, $meta);
